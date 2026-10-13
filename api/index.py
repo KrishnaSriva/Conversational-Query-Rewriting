@@ -2,6 +2,7 @@ import os
 import re
 from typing import List, Optional
 from fastapi import FastAPI, HTTPException
+from fastapi.responses import HTMLResponse
 from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
 from dotenv import load_dotenv
@@ -17,6 +18,16 @@ app.add_middleware(
     allow_methods=["*"],
     allow_headers=["*"],
 )
+
+@app.get("/", response_class=HTMLResponse)
+def read_root():
+    html_path = os.path.join(os.path.dirname(__file__), "..", "public", "index.html")
+    if not os.path.exists(html_path):
+        html_path = os.path.join(os.path.dirname(__file__), "index.html")
+    if os.path.exists(html_path):
+        with open(html_path, "r", encoding="utf-8") as f:
+            return f.read()
+    return "<h1>Conversational Query Rewriter API is live!</h1>"
 
 class Turn(BaseModel):
     speaker: str  # 'user' or 'system'
