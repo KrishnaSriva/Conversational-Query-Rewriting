@@ -1,0 +1,37 @@
+domain,intent,count
+Banking,Loan Application,521
+Banking,Product Comparison,512
+Banking,Fraud Alerts,507
+Banking,Refund Delays,504
+Banking,Fee Complaints,500
+Banking,Credit Limit Requests,499
+Flight,Delay Management,722
+Flight,Cross-Brand Mentions,545
+Flight,Urgency & Stress,544
+Flight,Refund Policy,541
+Flight,Price Sensitivity,539
+Flight,Loyalty Program,537
+Hotel,Cancellation Policies,561
+Hotel,Upgrade Requests,559
+Hotel,Service Complaints,557
+Hotel,Discounts & Promotions,556
+Hotel,Booking Errors,555
+Hotel,Brand Loyalty,553
+Insurance,Sales effectiveness,488
+Insurance,Feature understanding,486
+Insurance,Upselling strategy,482
+Insurance,Competitor comparison,476
+Insurance,Customer trust,476
+Insurance,Policy renewal,476
+Insurance,Claims & refunds,475
+Retail,Replacement vs Refund,626
+Retail,Loyalty Program,624
+Retail,Product Feedback,624
+Retail,Delivery Delays,622
+Retail,Product Returns,622
+Telecom,Technical Support,558
+Telecom,Churn Prediction,555
+Telecom,Connectivity Complaints,555
+Telecom,Feature Requests,555
+Telecom,Network Outages,555
+Telecom,Plan Upgrades,554

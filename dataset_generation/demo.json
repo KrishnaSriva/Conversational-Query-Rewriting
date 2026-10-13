@@ -1,0 +1,770 @@
+[
+  {
+    "transcript_id": "ESC-001",
+    "domain": "Customer Service",
+    "intent": "Billing Inquiry",
+    "reason_for_call": "Customer is attempting to resolve a billing issue but is frustrated by excessive hold times.",
+    "conversation": [
+      {
+        "speaker": "Customer",
+        "normalized": "Hi — I've been waiting on hold for 28 minutes. Is anyone going to help me?"
+      },
+      {
+        "speaker": "Agent",
+        "normalized": "I'm sorry for the wait. Can I have your account number so I can look up your billing?"
+      },
+      {
+        "speaker": "Customer",
+        "normalized": "I already gave it to the automated system. This hold time is unacceptable."
+      },
+      {
+        "speaker": "Agent",
+        "normalized": "I truly apologize. Please hold for another 8 to 10 minutes while I retrieve your details."
+      },
+      {
+        "speaker": "Customer",
+        "normalized": "Another 8 to 10 minutes? I've been on hold half an hour. I want to speak to your manager."
+      },
+      {
+        "speaker": "Agent",
+        "normalized": "I can escalate this for you. Can you confirm the best number to reach you?"
+      },
+      {
+        "speaker": "Customer",
+        "normalized": "No — connect me to your manager now."
+      }
+    ],
+    "summary": "The customer contacted support regarding a billing issue after enduring a 28-minute wait. Frustration peaked when the agent requested an additional 8-10 minute hold to retrieve details that had already been provided to the automated system. Citing the unacceptable total wait time, the customer refused a callback and demanded an immediate transfer to a manager."
+  },
+  {
+    "transcript_id": "ESC-002",
+    "domain": "Logistics",
+    "intent": "Delivery Status",
+    "reason_for_call": "Customer is calling for the fourth time regarding an unresolved delivery issue and is experiencing long hold times.",
+    "conversation": [
+      {
+        "speaker": "Customer",
+        "normalized": "Hello — I've been on hold through three songs. This is my fourth time calling about the same delivery issue."
+      },
+      {
+        "speaker": "Agent",
+        "normalized": "I'm so sorry for that. I can check your delivery status; may I place you on a brief hold?"
+      },
+      {
+        "speaker": "Customer",
+        "normalized": "How long is 'brief'? This is getting ridiculous."
+      },
+      {
+        "speaker": "Agent",
+        "normalized": "It should be around 12 minutes while I pull the routing logs."
+      },
+      {
+        "speaker": "Customer",
+        "normalized": "12 minutes? No. I've already been waiting forever. I want to speak to your manager."
+      },
+      {
+        "speaker": "Agent",
+        "normalized": "I understand — I can transfer you to a supervisor. Would you like me to do that now?"
+      },
+      {
+        "speaker": "Customer",
+        "normalized": "Yes, transfer me immediately."
+      }
+    ],
+    "summary": "The customer called regarding a delivery issue, noting this was their fourth attempt to resolve the matter and that they had already been on hold for a significant time. When the agent requested an additional 12-minute hold to pull routing logs, the customer deemed the wait ridiculous and immediately requested an escalation to a supervisor, which the agent facilitated."
+  },
+  {
+    "transcript_id": "ESC-003",
+    "domain": "Telecom",
+    "intent": "Technical Support",
+    "reason_for_call": "Customer is reporting a service outage and is frustrated by long queue times.",
+    "conversation": [
+      {
+        "speaker": "Customer",
+        "normalized": "Good morning — I've been on hold and in queue for 35 minutes. My service just went out."
+      },
+      {
+        "speaker": "Agent",
+        "normalized": "I'm really sorry for the delay. We're experiencing high volume. Could you hold for about 7 minutes while I run diagnostics?"
+      },
+      {
+        "speaker": "Customer",
+        "normalized": "Seven minutes? That's a long time when I have no internet."
+      },
+      {
+        "speaker": "Agent",
+        "normalized": "I understand — if you prefer, I can schedule a technician visit, but I'll still need a moment to check availability."
+      },
+      {
+        "speaker": "Customer",
+        "normalized": "No — this is unacceptable. I want to speak to a supervisor right now."
+      },
+      {
+        "speaker": "Agent",
+        "normalized": "I will connect you to a supervisor; please hold briefly while I transfer the call."
+      },
+      {
+        "speaker": "Customer",
+        "normalized": "Don't put me on hold again — transfer me now."
+      }
+    ],
+    "summary": "After a 35-minute wait in the queue to report a service outage, the customer was asked to hold for an additional 7 minutes for diagnostics. The customer refused the additional delay given the lack of internet service. When the agent offered to check technician availability instead, the customer escalated the call, demanding to speak to a supervisor immediately without being placed on hold again."
+  },
+  {
+    "transcript_id": "ESC-004",
+    "domain": "Retail",
+    "intent": "Refund Inquiry",
+    "reason_for_call": "Customer is inquiring about a missing refund that was promised the previous week.",
+    "conversation": [
+      {
+        "speaker": "Customer",
+        "normalized": "Hi — I was promised a refund last week and it still hasn't posted to my account."
+      },
+      {
+        "speaker": "Agent",
+        "normalized": "I'm sorry for the delay. I can look up your refund — may I have your order number?"
+      },
+      {
+        "speaker": "Customer",
+        "normalized": "It's 8742-91. Please check — this has been going on for days."
+      },
+      {
+        "speaker": "Agent",
+        "normalized": "Thanks — please hold while I transfer you to Billing who handle refunds."
+      },
+      {
+        "speaker": "Agent",
+        "normalized": "Hello, Billing here — I see the refund is pending, but I need to transfer you to Payments to finalize."
+      },
+      {
+        "speaker": "Agent",
+        "normalized": "Payments department — please hold while I connect you to Reconciliation for the final approval."
+      },
+      {
+        "speaker": "Customer",
+        "normalized": "I'm escalating this call to a supervisor due to multiple transfers."
+      }
+    ],
+    "summary": "The customer called to check on a delayed refund. The initial agent transferred the customer to Billing, who then transferred them to Payments, who subsequently attempted to transfer them to Reconciliation. Frustrated by the 'ping-pong' effect of multiple transfers without resolution, the customer interrupted the final transfer to demand an escalation to a supervisor."
+  },
+  {
+    "transcript_id": "ESC-005",
+    "domain": "Telecom",
+    "intent": "Technical Support",
+    "reason_for_call": "Customer needs immediate resolution for an internet outage that began the previous night.",
+    "conversation": [
+      {
+        "speaker": "Customer",
+        "normalized": "My internet has been down since last night and I want it fixed now."
+      },
+      {
+        "speaker": "Agent",
+        "normalized": "I'm sorry — I'll run a quick check. Please hold while I transfer you to Technical Support."
+      },
+      {
+        "speaker": "Agent",
+        "normalized": "Technical Support: we need to escalate to Network Ops for your area — transferring now, please hold."
+      },
+      {
+        "speaker": "Agent",
+        "normalized": "Network Ops: your case is outside our automated queue; I will transfer you to Field Services for an appointment."
+      },
+      {
+        "speaker": "Customer",
+        "normalized": "This is unacceptable — I'm escalating this call because of multiple transfers."
+      }
+    ],
+    "summary": "The customer contacted support regarding an internet outage. They were passed from the initial agent to Technical Support, then to Network Ops, and finally towards Field Services. Due to the repeated handoffs without any agent taking ownership or providing a solution, the customer found the process unacceptable and escalated the call to management."
+  },
+  {
+    "transcript_id": "ESC-006",
+    "domain": "Mobile",
+    "intent": "Activation Issue",
+    "reason_for_call": "Customer is calling about a new phone line that remains inactive two days after the promised activation date.",
+    "conversation": [
+      {
+        "speaker": "Customer",
+        "normalized": "I was promised activation of my new phone line two days ago and it's still inactive."
+      },
+      {
+        "speaker": "Agent",
+        "normalized": "Apologies — I can help. I'll transfer you to Activations so they can check the provisioning."
+      },
+      {
+        "speaker": "Agent",
+        "normalized": "Activations: we don't have the device ID here; transferring to Sales Support who originated the order."
+      },
+      {
+        "speaker": "Agent",
+        "normalized": "Sales Support: order shows as complete, transferring you to Provisioning for the network-side activation."
+      },
+      {
+        "speaker": "Agent",
+        "normalized": "Provisioning: there's a pending ticket with Engineering; connecting you to Engineering for resolution."
+      },
+      {
+        "speaker": "Customer",
+        "normalized": "I want this escalated to a manager immediately due to multiple transfers."
+      },
+      {
+        "speaker": "Agent",
+        "normalized": "I understand — I'll connect you to a manager right away."
+      }
+    ],
+    "summary": "The customer called to resolve a delayed phone activation. They were transferred sequentially through Activations, Sales Support, and Provisioning, with each department passing responsibility to the next. Upon the fourth attempted transfer to Engineering, the customer intervened and demanded an immediate manager escalation due to the excessive number of transfers."
+  },
+  {
+    "transcript_id": "ESC-007",
+    "domain": "Retail",
+    "intent": "Refund Request",
+    "reason_for_call": "Customer is attempting to process a refund for a returned item but cannot due to website errors.",
+    "conversation": [
+      {
+        "speaker": "Customer",
+        "normalized": "Hi — I was trying to submit a refund request for an order I returned last week, but the site gives an error at checkout."
+      },
+      {
+        "speaker": "Agent",
+        "normalized": "I'm sorry about that. Can I have your order number so I can submit the refund on your behalf?"
+      },
+      {
+        "speaker": "Customer",
+        "normalized": "Order 789123. Please process it — I already mailed the return and need the refund issued."
+      },
+      {
+        "speaker": "Agent",
+        "normalized": "Thank you. I'm attempting to access the refunds portal, but I'm seeing a system error. It appears the website is currently down and I can't reach the refunds system."
+      },
+      {
+        "speaker": "Agent",
+        "normalized": "Our engineering team has been notified; estimated restoration is unknown at this time. I can open a ticket, but I can't issue the refund until the system is back online."
+      },
+      {
+        "speaker": "Customer",
+        "normalized": "I want to speak to a supervisor. I'm escalating this call."
+      }
+    ],
+    "summary": "The customer sought assistance processing a refund after encountering website errors. The agent attempted to process it manually but discovered the internal refunds portal was also down, preventing any immediate action. When the agent offered to open a ticket but could not provide a refund or resolution time, the customer escalated the call to a supervisor."
+  },
+  {
+    "transcript_id": "ESC-008",
+    "domain": "Subscription Services",
+    "intent": "Cancellation",
+    "reason_for_call": "Customer wants to cancel a subscription and receive a prorated refund immediately.",
+    "conversation": [
+      {
+        "speaker": "Customer",
+        "normalized": "Hello — I need to cancel my subscription and get a prorated refund today."
+      },
+      {
+        "speaker": "Agent",
+        "normalized": "I can help with that. May I have the email on the account?"
+      },
+      {
+        "speaker": "Customer",
+        "normalized": "it's [anna.peterson@email.com](mailto:anna.peterson@email.com) — please cancel and refund."
+      },
+      {
+        "speaker": "Agent",
+        "normalized": "Thank you. I'm logging into the account manager to process the cancellation, but the account management interface is returning a server error and won't load."
+      },
+      {
+        "speaker": "Agent",
+        "normalized": "I can't complete cancellations while our site is down; the cancellation function is dependent on that system. I can create an escalation ticket but cannot issue the refund now."
+      },
+      {
+        "speaker": "Customer",
+        "normalized": "This is unacceptable — escalate me to a manager now."
+      }
+    ],
+    "summary": "The customer requested an immediate subscription cancellation and refund. The agent was unable to fulfill the request due to a server error affecting the account management interface. Because the agent could only offer an escalation ticket rather than the immediate financial resolution the customer required, the customer demanded to be transferred to a manager."
+  },
+  {
+    "transcript_id": "ESC-009",
+    "domain": "Banking",
+    "intent": "Transfer Inquiry",
+    "reason_for_call": "Customer is inquiring about a funds transfer stuck in 'processing' for over 24 hours.",
+    "conversation": [
+      {
+        "speaker": "Customer",
+        "normalized": "Hi — I initiated a funds transfer between my accounts, and it's stuck 'processing' for over 24 hours."
+      },
+      {
+        "speaker": "Agent",
+        "normalized": "I'm sorry for the delay. Let me check the transfer status — could you confirm the transfer ID?"
+      },
+      {
+        "speaker": "Customer",
+        "normalized": "Transfer ID TR-55442. I need that money available today for payroll."
+      },
+      {
+        "speaker": "Agent",
+        "normalized": "I'm checking the transfer system, but I'm receiving a connectivity error; our transfers platform is currently experiencing an outage and some transactions are stuck in processing."
+      },
+      {
+        "speaker": "Agent",
+        "normalized": "Because the transfers platform is offline, I cannot push the transaction manually. I can escalate to our payments team, but I don't have the ability to release the funds right now."
+      },
+      {
+        "speaker": "Customer",
+        "normalized": "I'm escalating this issue; send me to someone who can fix this now."
+      }
+    ],
+    "summary": "The customer contacted support regarding a funds transfer stuck in processing needed for payroll. The agent identified a platform outage causing connectivity errors, which prevented manual release of the funds. Upon being told the agent could not resolve the issue immediately due to the outage, the customer demanded escalation to someone with the authority or ability to fix the critical issue."
+  },
+  {
+    "transcript_id": "ESC-010",
+    "domain": "Customer Service",
+    "intent": "Billing Dispute",
+    "reason_for_call": "Customer is following up on an incorrect charge and a promised callback that was missed.",
+    "conversation": [
+      {
+        "speaker": "Customer",
+        "normalized": "Hi — I was told someone would call me back yesterday about the incorrect charge on my account, but no one ever did."
+      },
+      {
+        "speaker": "Agent",
+        "normalized": "I'm very sorry to hear that. Let me pull up your account and the previous case notes so we can sort this out."
+      },
+      {
+        "speaker": "Customer",
+        "normalized": "The agent yesterday said they'd call me back at 3:00 PM and they never did. I rearranged my day for that call."
+      },
+      {
+        "speaker": "Agent",
+        "normalized": "I apologize for that lapse. I will personally escalate this and have a senior specialist call you back within two hours."
+      },
+      {
+        "speaker": "Customer",
+        "normalized": "Two hours? I've already been promised callbacks twice with no follow-through. I need a concrete resolution now."
+      },
+      {
+        "speaker": "Agent",
+        "normalized": "Understood. I'll create an urgent ticket and mark it for immediate review. You should expect a callback within two hours; can I confirm the best number to reach you?"
+      },
+      {
+        "speaker": "Customer",
+        "normalized": "Yes, it's the same number on file. Please make sure someone actually calls this time."
+      },
+      {
+        "speaker": "Customer",
+        "normalized": "This is unacceptable — I'm escalating this to a supervisor because a promised callback or action never happened."
+      }
+    ],
+    "summary": "The customer called to complain about a missed callback regarding a billing dispute. The agent offered to arrange another callback from a senior specialist within two hours. However, the customer, having already been failed by previous promises of callbacks, found this solution unacceptable and escalated the call to a supervisor to ensure immediate action."
+  },
+  {
+    "transcript_id": "ESC-011",
+    "domain": "Telecom",
+    "intent": "Technical Support",
+    "reason_for_call": "Customer is reporting a missed scheduled callback regarding a connectivity issue.",
+    "conversation": [
+      {
+        "speaker": "Customer",
+        "normalized": "Good afternoon. I received notification that a technician would contact me yesterday regarding the connectivity issue, but no one reached out."
+      },
+      {
+        "speaker": "Agent",
+        "normalized": "I'm sorry about that. I can see a note that a callback was scheduled — let me review the ticket and arrange next steps."
+      },
+      {
+        "speaker": "Customer",
+        "normalized": "The note specifically said a callback at 10:30 AM. Nobody called; I waited by the phone and missed an important meeting."
+      },
+      {
+        "speaker": "Agent",
+        "normalized": "I sincerely apologize for the inconvenience. I will escalate this to our field operations lead and request a callback within the hour."
+      },
+      {
+        "speaker": "Customer",
+        "normalized": "An hour is acceptable only if this time the callback actually happens. I have already had to chase this twice."
+      },
+      {
+        "speaker": "Agent",
+        "normalized": "Understood. I've flagged the ticket as high priority and added your case notes. We'll have a supervisor follow up within 60 minutes — may I confirm the best number?"
+      },
+      {
+        "speaker": "Customer",
+        "normalized": "Yes, use the number ending in 4321. Please ensure the callback occurs; I cannot continue to be passed along with no resolution."
+      },
+      {
+        "speaker": "Customer",
+        "normalized": "I must escalate this issue to a manager because a promised callback or action never happened and it's causing real disruption."
+      }
+    ],
+    "summary": "The customer reported a missed scheduled technician callback that caused them to miss a meeting. The agent apologized and promised a supervisor would call back within 60 minutes. Despite initially engaging with the offer, the customer ultimately decided that the risk of another missed promise was too high and escalated the issue to a manager immediately."
+  },
+  {
+    "transcript_id": "ESC-012",
+    "domain": "Retail",
+    "intent": "Refund Follow-up",
+    "reason_for_call": "Customer is calling for the third time regarding a refund callback that never occurred.",
+    "conversation": [
+      {
+        "speaker": "Customer",
+        "normalized": "This is the third time I'm calling — I was promised a refund callback yesterday and I never got it."
+      },
+      {
+        "speaker": "Agent",
+        "normalized": "I'm really sorry to hear that. Let me pull up your refund request and see why the callback didn't occur."
+      },
+      {
+        "speaker": "Customer",
+        "normalized": "The previous agent said they'd 'handle it' and call me back before close of business. No call, no email."
+      },
+      {
+        "speaker": "Agent",
+        "normalized": "I apologize for the lapse. I will escalate to the billing supervisor and request they contact you within two hours."
+      },
+      {
+        "speaker": "Customer",
+        "normalized": "Two hours? That's what I was told before. I can't keep rearranging my schedule for empty promises."
+      },
+      {
+        "speaker": "Agent",
+        "normalized": "I understand your frustration. I will set an urgent escalation and note that you require contact on the number ending in 9087."
+      },
+      {
+        "speaker": "Customer",
+        "normalized": "I've given that number already. If someone doesn't call me now, I'm taking this to a formal complaint — this is completely unprofessional."
+      },
+      {
+        "speaker": "Customer",
+        "normalized": "Escalating now: a promised callback or action never happened and I've been inconvenienced repeatedly."
+      }
+    ],
+    "summary": "This was the customer's third call regarding a refund callback that never happened. The agent offered to escalate the request to a billing supervisor for a callback within two hours. The customer, tired of empty promises and having to rearrange their schedule, refused the delay and escalated the call immediately to ensure the issue was handled professionally."
+  },
+  {
+    "transcript_id": "ESC-013",
+    "domain": "Telecom",
+    "intent": "Technical Support",
+    "reason_for_call": "Customer is reporting intermittent internet connectivity and frustration with repeated ineffective support attempts.",
+    "conversation": [
+      {
+        "speaker": "Customer",
+        "normalized": "I'm calling because my home internet has been dropping multiple times a day for two weeks — I've already called three times and I'm beyond frustrated before I even start."
+      },
+      {
+        "speaker": "Agent",
+        "normalized": "I'm very sorry to hear that. Can I have your account number so I can look up the history and help you?"
+      },
+      {
+        "speaker": "Customer",
+        "normalized": "Sure — it's 44321987. My previous ticket numbers are TKT4521 and TKT4678. A technician came out last week and again three days ago; they left saying they'd escalate to Tier 2 and that I'd get a callback. Nothing happened."
+      },
+      {
+        "speaker": "Agent",
+        "normalized": "I can see the prior tickets and the technician notes. I will schedule another technician visit and open a new ticket for escalation right now."
+      },
+      {
+        "speaker": "Customer",
+        "normalized": "Scheduling another technician is exactly what I've been told twice already. The techs did basic checks and left; a callback was promised and I never received it. I don't want the same loop again."
+      },
+      {
+        "speaker": "Agent",
+        "normalized": "Understood. I'll open a fresh ticket and mark it urgent; it may take 48–72 hours for a Tier 2 engineer to follow up. We can offer a small bill credit for the disruption."
+      },
+      {
+        "speaker": "Customer",
+        "normalized": "I've been transferred and told 'we'll escalate' every time I've called. Repeating the same steps and waiting days for a callback isn't acceptable — my work depends on this connection."
+      },
+      {
+        "speaker": "Agent",
+        "normalized": "I hear you. The procedure is to open an urgent escalation; please allow up to 72 hours and we'll notify you as soon as the engineer is assigned."
+      },
+      {
+        "speaker": "Customer",
+        "normalized": "I want to speak to a supervisor right now. This is an escalation. If you cannot get this fixed today I will cancel my service and dispute the charges — I'm done repeating the same empty promises."
+      }
+    ],
+    "summary": "The customer reported recurring internet drops over two weeks, noting that previous technician visits and promised callbacks had failed. The agent proposed opening a new urgent ticket with a 48–72 hour wait for a Tier 2 engineer. The customer, unwilling to repeat the same failed process or wait days for a callback, demanded a supervisor immediately and threatened cancellation."
+  },
+  {
+    "transcript_id": "ESC-014",
+    "domain": "Mobile",
+    "intent": "Billing Dispute",
+    "reason_for_call": "Customer is disputing international roaming charges and is frustrated by repeated identical assurances without resolution.",
+    "conversation": [
+      {
+        "speaker": "Customer",
+        "normalized": "Hi, I'm calling again about my mobile plan issue. This is my fifth call in two weeks — every time I explain the same thing and nothing changes."
+      },
+      {
+        "speaker": "Agent",
+        "normalized": "I'm sorry to hear that, sir. Can you describe the issue once more so I can check your account details?"
+      },
+      {
+        "speaker": "Customer",
+        "normalized": "I was charged for international roaming even though I had it disabled before my trip. Each agent said they’d submit a correction and that I'd get a refund in 48 hours. Never happened."
+      },
+      {
+        "speaker": "Agent",
+        "normalized": "I see your previous cases. It seems the refund request was still pending because it needed a manager’s approval. I can resubmit it for you right now."
+      },
+      {
+        "speaker": "Customer",
+        "normalized": "That’s exactly what the last person told me on Monday. I waited, no update, no message, no refund. Why am I going in circles?"
+      },
+      {
+        "speaker": "Agent",
+        "normalized": "I understand the frustration. I’ll mark this as high priority and you should get an update in 3–5 business days."
+      },
+      {
+        "speaker": "Customer",
+        "normalized": "You’re literally repeating the same script I’ve heard four times. I’m tired of waiting and hearing ‘3–5 days’. I need someone who can actually resolve this."
+      },
+      {
+        "speaker": "Agent",
+        "normalized": "Sir, I assure you it will be handled this time. The only process we have is to escalate to the billing department again."
+      },
+      {
+        "speaker": "Customer",
+        "normalized": "Then I want a supervisor right now. This is ridiculous — I’ve been patient long enough, and I’m not calling again for the same problem!"
+      }
+    ],
+    "summary": "On their fifth call regarding an invalid roaming charge, the customer expressed frustration over repeated unfulfilled promises of refunds within 48 hours. The agent explained the delay was due to pending approval and offered to resubmit the request with a 3-5 day timeline. The customer, recognizing this as the same ineffective script used previously, demanded to speak to a supervisor."
+  },
+  {
+    "transcript_id": "ESC-015",
+    "domain": "Retail",
+    "intent": "Warranty Claim",
+    "reason_for_call": "Customer is following up on a refrigerator warranty claim after multiple agents failed to schedule a repair.",
+    "conversation": [
+      {
+        "speaker": "Customer",
+        "normalized": "Good afternoon. I’ve been calling for weeks about my refrigerator warranty claim. Every agent says they’ll check with the service team, but I still haven’t received a repair appointment."
+      },
+      {
+        "speaker": "Agent",
+        "normalized": "I understand your concern. Let me quickly review the notes on your account to see what’s happening with your case."
+      },
+      {
+        "speaker": "Customer",
+        "normalized": "The first call was on the 3rd, then again on the 8th, and again last Friday. Each time I was told someone would call me back with a schedule. No one ever does."
+      },
+      {
+        "speaker": "Agent",
+        "normalized": "I do see multiple notes here mentioning follow-ups. It looks like the part needed for your repair is still pending from the vendor side."
+      },
+      {
+        "speaker": "Customer",
+        "normalized": "That’s not what I was told before. Every time I call, I get a new excuse. I’m tired of repeating the same story to new agents who can’t do anything."
+      },
+      {
+        "speaker": "Agent",
+        "normalized": "I completely understand, sir. I can raise another internal escalation request to the service team for you. They’ll get in touch within 72 hours."
+      },
+      {
+        "speaker": "Customer",
+        "normalized": "That’s exactly the same thing everyone else said. You’re just logging another request — nothing changes. I’ve wasted hours on this already."
+      },
+      {
+        "speaker": "Agent",
+        "normalized": "It’s the only step I can take from my end, unfortunately. Once the service team responds, you’ll receive a confirmation message."
+      },
+      {
+        "speaker": "Customer",
+        "normalized": "This is going nowhere. I want to talk to your manager right now — this is my fourth time explaining the same issue with zero action taken!"
+      }
+    ],
+    "summary": "The customer called to resolve a weeks-long delay in a refrigerator warranty repair. The agent attributed the delay to a pending part and offered to raise another internal escalation with a 72-hour response time. The customer, noting this was the same ineffective solution provided on three prior calls, rejected the offer and demanded a manager to break the cycle of inaction."
+  },
+  {
+    "transcript_id": "ESC-016",
+    "domain": "Telecom",
+    "intent": "Technical Support",
+    "reason_for_call": "Customer is reporting persistent router connection drops despite performing all standard troubleshooting.",
+    "conversation": [
+      {
+        "speaker": "Customer",
+        "normalized": "Hi — my router has been dropping the connection every 10 minutes for the last three days."
+      },
+      {
+        "speaker": "Agent",
+        "normalized": "Sorry to hear that. Let's run some quick checks. Have you tried rebooting the router?"
+      },
+      {
+        "speaker": "Customer",
+        "normalized": "Yes — I have rebooted it multiple times and done a factory reset yesterday. It still drops."
+      },
+      {
+        "speaker": "Agent",
+        "normalized": "Okay, can you unplug it for 30 seconds and plug it back in, then tell me the LED pattern?"
+      },
+      {
+        "speaker": "Customer",
+        "normalized": "I already did that twice during my reset. The LED cycles green then amber then it goes blank when it drops."
+      },
+      {
+        "speaker": "Agent",
+        "normalized": "Understood. I'm going to run a remote diagnostics now. This may take a few minutes; please keep the router connected."
+      },
+      {
+        "speaker": "Agent",
+        "normalized": "Diagnostics show intermittent packet loss. Try changing the Wi-Fi channel to 6 and disable QoS, then reboot."
+      },
+      {
+        "speaker": "Customer",
+        "normalized": "I've already tried changing channels and disabling QoS during earlier calls — nothing fixed it. This has been going on for three days and I've called twice before. I want to speak to a supervisor."
+      }
+    ],
+    "summary": "The customer called regarding a router dropping connections. The agent attempted to guide the customer through standard troubleshooting steps like rebooting, checking LEDs, and changing Wi-Fi channels. The customer, having already performed these steps (including a factory reset) on previous calls without success, refused to repeat them and escalated to a supervisor."
+  },
+  {
+    "transcript_id": "ESC-017",
+    "domain": "IT Support",
+    "intent": "VPN Connectivity",
+    "reason_for_call": "Employee is unable to connect to the company VPN after a security update and has exhausted standard troubleshooting.",
+    "conversation": [
+      {
+        "speaker": "Customer",
+        "normalized": "My laptop still won't connect to the company VPN after the security update last week."
+      },
+      {
+        "speaker": "Agent",
+        "normalized": "Let's walk through the VPN client logs. Open the client and share the error code you see."
+      },
+      {
+        "speaker": "Customer",
+        "normalized": "It shows 'AUTH_FAILED' and then 'Handshake timeout' — I reported this in a ticket two days ago."
+      },
+      {
+        "speaker": "Agent",
+        "normalized": "AUTH_FAILED can be caused by credentials or expired certs. Can you re-enter your credentials and try again?"
+      },
+      {
+        "speaker": "Customer",
+        "normalized": "I re-entered credentials already, and I renewed the cert like support told me yesterday — still the same error."
+      },
+      {
+        "speaker": "Agent",
+        "normalized": "Okay — please reinstall the VPN client, reboot, and attempt to reconnect. I'll stay on the line."
+      },
+      {
+        "speaker": "Customer",
+        "normalized": "I reinstalled it during my earlier call and it didn't help. I've done all the standard fixes you've listed and the issue persists across machines."
+      },
+      {
+        "speaker": "Customer",
+        "normalized": "This is a critical tool for my work and I've spent three hours over two days troubleshooting. This is unacceptable, I want to speak to a supervisor."
+      }
+    ],
+    "summary": "The caller needed assistance with a VPN connection failure following a security update. The agent suggested re-entering credentials and reinstalling the client. The caller explained they had already performed these specific steps during previous support interactions without success. Citing the critical nature of the tool and the time already wasted, the caller escalated to a supervisor."
+  },
+  {
+    "transcript_id": "ESC-018",
+    "domain": "Smart Home",
+    "intent": "Device Troubleshooting",
+    "reason_for_call": "Customer is reporting that their smart thermostat repeatedly loses connection and fails to heat the house.",
+    "conversation": [
+      {
+        "speaker": "Customer",
+        "normalized": "My smart thermostat is repeatedly losing connection to the hub and failing to heat the house overnight."
+      },
+      {
+        "speaker": "Agent",
+        "normalized": "Thanks for reporting that. Let's check device firmware and signal strength. Have you installed the latest firmware?"
+      },
+      {
+        "speaker": "Customer",
+        "normalized": "Yes — I updated the firmware two days ago per the last agent's instruction. It still drops connection at night."
+      },
+      {
+        "speaker": "Agent",
+        "normalized": "Please move the thermostat closer to the hub and remove any metal obstructions, then reboot both devices."
+      },
+      {
+        "speaker": "Customer",
+        "normalized": "I can't move it — it's mounted and drilling new holes isn't an option. I already moved the hub closer during a previous call."
+      },
+      {
+        "speaker": "Agent",
+        "normalized": "Understood. Let's try resetting the network on the hub and re-pairing the thermostat; this will take a few minutes."
+      },
+      {
+        "speaker": "Customer",
+        "normalized": "We already reset and re-paired yesterday; it worked for a few hours and then dropped again. I've done multiple resets and re-pairs — none have solved it."
+      },
+      {
+        "speaker": "Customer",
+        "normalized": "I've spent hours on this across three calls with different agents. I'm fed up — escalate this to your engineering team and I want to speak to a supervisor now."
+      }
+    ],
+    "summary": "The customer called regarding a smart thermostat losing connection. The agent suggested firmware updates, moving the device, and resetting the network. The customer rejected these steps, noting they had already been attempted on previous calls with no lasting fix. Frustrated by the repetition and the persistent failure of the heating system, the customer demanded a supervisor and engineering escalation."
+  },
+  {
+    "transcript_id": "ESC-019",
+    "domain": "Telecom",
+    "intent": "Technical Support",
+    "reason_for_call": "Customer is reporting recurring evening broadband drops that have persisted for two weeks.",
+    "conversation": [
+      {
+        "speaker": "Customer",
+        "normalized": "Hi — my broadband drops every evening. I've called twice this month and it's never fixed."
+      },
+      {
+        "speaker": "Agent",
+        "normalized": "Sorry to hear that. Let's run through a modem reboot and line test now."
+      },
+      {
+        "speaker": "Customer",
+        "normalized": "We've done that on previous calls. It works for a few hours and then fails again."
+      },
+      {
+        "speaker": "Agent",
+        "normalized": "I understand the frustration. I can schedule a field technician, but the earliest slot is in five days."
+      },
+      {
+        "speaker": "Customer",
+        "normalized": "Five days is unacceptable — this has been happening every night for two weeks."
+      },
+      {
+        "speaker": "Agent",
+        "normalized": "We've already walked through those troubleshooting steps on your previous calls; there isn't anything else I can do over the phone."
+      },
+      {
+        "speaker": "Customer",
+        "normalized": "I want to speak to a supervisor now — this is a chronic problem and calling repeatedly isn't solving it."
+      }
+    ],
+    "summary": "The customer reported a chronic broadband issue causing nightly drops for two weeks. The agent's offer to schedule a technician in five days was rejected as unacceptable given the duration of the problem. When the agent admitted they could do nothing else over the phone because standard troubleshooting had already been exhausted, the customer escalated to a supervisor."
+  },
+  {
+    "transcript_id": "ESC-020",
+    "domain": "Energy",
+    "intent": "Smart Meter Issue",
+    "reason_for_call": "Customer is reporting billing errors caused by a smart meter losing readings, which has not been resolved by previous calls.",
+    "conversation": [
+      {
+        "speaker": "Customer",
+        "normalized": "My smart meter keeps losing readings and my bill skyrockets. This is the third time I'm calling this month."
+      },
+      {
+        "speaker": "Agent",
+        "normalized": "I see. Let's verify the device firmware and your account settings."
+      },
+      {
+        "speaker": "Customer",
+        "normalized": "We checked firmware before — the readings still drop overnight."
+      },
+      {
+        "speaker": "Agent",
+        "normalized": "I've run a remote diagnostics and everything shows nominal; there are no scheduled maintenance activities."
+      },
+      {
+        "speaker": "Customer",
+        "normalized": "Diagnostics saying 'nominal' doesn't help; my usage records are missing and the bill is wrong."
+      },
+      {
+        "speaker": "Agent",
+        "normalized": "At this point the only option is to file a ticket for the meter team; response time is 7-10 business days."
+      },
+      {
+        "speaker": "Customer",
+        "normalized": "This is unacceptable — I've already waited on tickets before. I'm escalating this call and want a manager."
+      }
+    ],
+    "summary": "The customer contacted support about a smart meter losing readings and causing billing errors, marking their third call on the issue. The agent's diagnostics showed no problems, and they offered to file a ticket with a 7-10 day response time. The customer found this delay unacceptable given previous unresolved tickets and billing impact, prompting an immediate escalation to a manager."
+  }
+]

@@ -1,0 +1,15 @@
+ {
+    "Clarifying Query": "The user explicitly seeks disambiguation of a specific term, phrase, or concept in the previous response, because the meaning is unclear or incomplete.",
+    "Exploring Domain": "The user requests additional information beyond what was provided, expanding the scope of the conversation into related but previously unmentioned aspects.",
+    "Verifying Info": "The user is checking the factual correctness or accuracy of the model’s previous answer.",
+    "Queries for Agent": "The question specifically evaluates, inspects, critiques, or extracts insights about the customer-care agent’s behavior, performance, decisions, or compliance.",
+    "Queries for Customer": "The user aims to analyze, interpret, or extract insights about the customer’s intentions, goals, behavior, or emotional state.",
+    "Excluding Condition": "The user requests a result minus a specific condition previously used in the search.",
+    "Adding/Specifying Condition": "The user adds a new constraint, filter, or condition on top of the existing search or retrieval request.",
+    "Substituting Condition": "The user replaces one search/filter condition with a different one, altering the scope without adding or removing multiple constraints.",
+    "Converting Format": "The user requests the same information in a different output format (tables, JSON, etc.) without questioning correctness.",
+    "Criticizing Response": "The user explicitly states or implies that the previous answer is missing information, incorrect, incomplete, or flawed.",
+    "Confirming Response": "The user seeks to validate their understanding of the previous answer.",
+    "Requesting Opinion": "User asks for subjective judgment or evaluation, not factual retrieval.",
+    "Requesting Unrelated Info": "The query does not depend on conversation context and requests information outside the customer-service domain."
+}
