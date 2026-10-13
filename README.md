@@ -1,3 +1,10 @@
+# Conversational Query Rewriting (CQR)
+
+[![Live Demo](https://img.shields.io/badge/Demo-Live%20on%20Vercel-6366f1?style=for-the-badge&logo=vercel)](https://conversational-query-rewriting.vercel.app/)
+
+> 🚀 **Interactive Web Application:** Try the live system here: [https://conversational-query-rewriting.vercel.app/](https://conversational-query-rewriting.vercel.app/)
+
+---
 
 ## Motivation
 
